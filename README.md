@@ -1,2 +1,9 @@
-# mini-FE
-mini frontend project with javascript and typescript
+# Frontend 미니 프로젝트
+HTML, CSS, Javascript, Typescript를 사용한 개인 연습용 미니 프로젝트입니다. 
+
+## 프로젝트 리스트
+|숫자|제목|비고|
+|------:|------|------|
+|1|숫자 야구 게임|진행중...|
+
+
