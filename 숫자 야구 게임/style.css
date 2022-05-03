@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 0;
+}
+.billboard-container {
+  width: 400px;
+  height: 200px;
+  padding: 20px 30px;
+  margin: 20px;
+  border: 7px solid;
+  border-radius: 10px;
+}
+.billboard {
+  display: flex;
+  margin: 15px 0;
+  width: 100%;
+}
+h3 {
+  margin: 0;
+  width: 30%;
+  margin-right: 10px;
+}
+.lamp {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 70%;
+}
+.circle {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.button-container {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.numberBtn {
+  padding: 15px 20px;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+.selected-number {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 0;
+}
+.selected {
+  border-bottom: 3px solid #fff;
+  margin: 0px 20px;
+  font-size: 30px;
+  height: 50px;
+  width: 60px;
+}
+
+#strike .circle.hit {
+  background-color: #ff0;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+}
+#ball .circle.hit {
+  background-color: #0f0;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+#out .circle.hit {
+  background-color: #f00;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
