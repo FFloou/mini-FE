@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  cursor: default;
 }
 body {
   background-color: #444;
@@ -49,11 +50,15 @@ h3 {
   display: flex;
   flex-wrap: wrap;
 }
-.numberBtn {
+.button-container button {
   padding: 15px 20px;
   font-size: 23px;
   font-weight: bold;
   margin: 10px 10px;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
 }
 .selected-number {
   width: 400px;
@@ -68,6 +73,8 @@ h3 {
   border-bottom: 3px solid #fff;
   margin: 0px 20px;
   font-size: 30px;
+  text-align: center;
+  font-weight: 700;
   height: 50px;
   width: 60px;
 }
